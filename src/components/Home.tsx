@@ -36,7 +36,10 @@ function Home() {
           QuocAnh(Official)
           <ChevronDownIcon className='h-5 ml-[60px] ' />
           </h2>
-          <div className='text-dicord_channelsText overflow-y-scroll flex-grow'>
+          <div className='text-dicord_channelsText 
+            overflow-y-scroll flex-grow scrollbar-thumb-gray-800
+            scrollbar-track-gray-600'
+            >
             <div>
               <DocumentIcon className='h-3 mr-3'  />
               <h4>Channels & Roles</h4>

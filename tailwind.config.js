@@ -18,5 +18,7 @@ module.exports = {
       fonthearder: ['Shantell Sans', "cursive"]
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }
