@@ -8,6 +8,7 @@ import {
   Link
 } from "react-router-dom";
 import Main from './components/Main';
+import Home from './components/Home';
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
         </Route>
       </Routes>
       <Routes>
-        <Route path='channels' element={<Main />}>
+        <Route path='channels' element={<Home />}>
         </Route>
       </Routes>
       <Routes>

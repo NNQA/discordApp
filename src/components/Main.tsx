@@ -29,7 +29,7 @@ export default function Main() {
         <div className='flex flex-grow overflow-hidden'>
           <img src={bg1} alt="Image Bg-1" className="translate-x-[200px] max-h-[250px] lg:flex hidden absolute" />
           <img src={bg2} alt="Image Bg-2" className='absolute lg:flex mt-[160px] -left-44 
-          sm:-left-[180px] lg:-translate-x-32 top-24 sm:flex hidden '/>
+          sm:-left-[180px] lg:-translate-x-32 top-24 md:hidden'/>
           <img src={bg3} alt="Image Bg-3" className='absolute right-0 top-20 mt-[190px]
           h-[350px] w-[550px] sm:flex hidden'/>
         </div>
