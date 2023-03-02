@@ -11,6 +11,7 @@ module.exports = {
         discord_channels:"#302c34",
         discord_serverHover: "#38343c",
         dicord_channelsText:"#8c898b",
+        discord_scrollbar:"#1c1c1c",
       }
     },
     fontFamily: {
@@ -19,6 +20,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('tailwind-scrollbar'),
+    require('tailwind-scrollbar')({ nocompatible: true }),
+    require('tailwind-scrollbar-hide')
   ],
 }
