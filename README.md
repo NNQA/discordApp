@@ -49,3 +49,12 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 # discordApp
 clone Discord, technology used for the project is React
 >>>>>>> bc888c37140a3d701bef0c493234780f32750026
+
+# Using React-route
+# Using firebase
+firestore, auth,...
+# Using react-firebase-hooks/auth
+link [Documentation](https://www.npmjs.com/package/react-firebase-hooks)
+use Authentication-Hook [Documenttation](https://github.com/csfrequency/react-firebase-hooks/tree/09bf06b28c82b4c3c1beabb1b32a8007232ed045/auth)
+use Cloud Firestore Hook [Documentation](https://github.com/csfrequency/react-firebase-hooks/tree/09bf06b28c82b4c3c1beabb1b32a8007232ed045/firestore)
+
